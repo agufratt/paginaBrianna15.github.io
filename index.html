@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html style="height: 100%">
+<head>
+	<meta charset="utf-8">
+	  <meta id="viewport" name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Brianna</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css?ver2.0">
+    
+</head>
+<body>
+    
+    <div id="container1">
+        <div id="titulo">
+            <img src="./imagenes/titulo.png" id="brianna">
+        </div>
+
+        <div id="boton" onclick="start()">
+            <img src="./imagenes/sombrero.png" id="sombrero">
+        </div>
+
+        <div class="insert">
+            <div  onclick="move()">
+                <input type="text" id="input">
+            </div>
+
+            <div id="texto">
+                <p style="color: #ffffff; font-family: 'fuente'; font-size: 1.75rem; text-align: center;" id="name">
+                    Escriba su nombre y toque el sombrero
+                </p>
+            </div> 
+        </div>
+
+        <div id="footer">
+            <img src="./imagenes/sello.png" id="sello">
+        </div>
+    </div>
+
+    <div id="casas" style="position: absolute;">
+        <img src="./imagenes/gryffindor.png" class="casa" id="cas0">
+        <img src="./imagenes/hufflepuff.png" class="casa" id="cas1">
+        <img src="./imagenes/ravenclaw.png" class="casa" id="cas2">
+        <img src="./imagenes/slytherin.png" class="casa" id="cas3">
+    </div>
+
+    <script type="text/javascript" src="src/script.js?ver2.0"></script>
+
+    <div id="ultimo"></div>
+</body>
+</html>
